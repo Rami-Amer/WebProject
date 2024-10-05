@@ -1,5 +1,5 @@
 /*
-
+The main container for the post section
  */
 #post-container {
     display: flex;
@@ -10,26 +10,26 @@
 }
 
 /*
-
+The post box styling
  */
 .post {
     border: 1px solid #ccc;
     padding: 10px;
     border-radius: 5px;
     background-color: #f9f9f9;
-    width: calc(33% - 20px);
+    width: calc(33% - 20px); /*Each row has three posts */
     box-sizing: border-box;
 }
 
 /*
-
+ The style for the post title.
  */
 .post h3 {
     font-weight: 700;
 }
 
 /*
-
+The style for the post paragraph.
  */
 .post p {
     font-weight: 400;
